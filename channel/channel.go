@@ -2,8 +2,8 @@ package channel
 
 import (
 	"fmt"
-	log "github.com/Sirupsen/logrus"
-	"github.com/jaksi/sshesame/request"
+	log "github.com/sirupsen/logrus"
+	"github.com/longkeyy/sshesame/request"
 	"golang.org/x/crypto/ssh"
 	"golang.org/x/crypto/ssh/terminal"
 	"io"

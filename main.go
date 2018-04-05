@@ -3,9 +3,9 @@ package main
 import (
 	"crypto/sha256"
 	"flag"
-	log "github.com/Sirupsen/logrus"
-	"github.com/jaksi/sshesame/channel"
-	"github.com/jaksi/sshesame/request"
+	log "github.com/sirupsen/logrus"
+	"github.com/longkeyy/sshesame/channel"
+	"github.com/longkeyy/sshesame/request"
 	"golang.org/x/crypto/ed25519"
 	"golang.org/x/crypto/ssh"
 	"io/ioutil"
